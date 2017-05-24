@@ -56,7 +56,7 @@ class Basket
     /**
      * Adds a book to the basket
      *
-     * @param \RobertLemke\Example\Bookshop\Domain\Model\Book $book The book to add
+     * @param \RobertLemke\Example\Bookshop\Domain\Model\Book $book The book to remove
      * @return void
      */
     public function removeBook(Book $book)
